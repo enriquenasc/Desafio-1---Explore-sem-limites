@@ -11,4 +11,4 @@ Woooow! Que demais, hein? 💙
 
 A ideia aqui é você recriar esse **[layout](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites/duplicate)** mas, diferente dos desafios iniciais que possuem apenas uma tela, esse tem mais de uma seção…
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97df845c-bb24-4f2e-a018-2aa08a93eac0/Untitled.png)
+![alt text](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97df845c-bb24-4f2e-a018-2aa08a93eac0/Untitled.png)
