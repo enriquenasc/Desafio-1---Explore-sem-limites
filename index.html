@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore sem limites</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Dosis:wght@700&family=Epilogue:wght@400;700;800&family=Inter:wght@400;700&family=JetBrains+Mono:wght@500;700&family=Mulish:wght@400;600;700;900&family=Poppins&family=Source+Serif+4:wght@400;500;700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="explorer">
+        <img
+          class="space"
+          src="./images/space.jpg.jpg"
+          alt="desenho de um astronauta no espaço"
+        />
+        </div>
+        <h2>Explore sem limites</h2>
+        <p>Porque o aprendizado é contínuo</p>
+        <img
+          class="arrow"
+          src="./images/seta.svg"
+          alt="seta apontando para baixo dentro de um figura cilíndrica"
+        />
+      </header>
+
+      <main>
+        <section>
+          <figure class="item">
+            <img
+              src="./images/moonyellow.svg"
+              alt="desenho de uma lua amarela"
+            />
+            <h2>Não pare nunca</h2>
+            <p>
+              Se você deseja ter sucesso nos estudos, é fundamental que você
+              adote uma mentalidade de "não pare nunca". Estudar de forma
+              consistente e contínua é a chave para o progresso e a conquista de
+              seus objetivos.
+            </p>
+          </figure>
+          <figure class="item">
+            <img src="./images/moonblue.svg" alt="desenho de uma lua azul" />
+            <h2>Só volta</h2>
+            <p>
+              Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
+              saiba que nunca é tarde para recomeçar. Às vezes, as
+              circunstâncias podem mudar, ou podemos nos sentir desmotivados ou
+              sobrecarregados.
+            </p>
+          </figure>
+          <figure class="item">
+            <img src="./images/moonpink.svg" alt="desenho de uma lua rosa" />
+            <h2>Siga seu ritmo</h2>
+            <p id="p3">
+              Avançar pouco a pouco mantém progresso constante em objetivos,
+              evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
+              destino e motivam a continuidade. Não subestime o poder de cada
+              ação rumo ao objetivo final.
+            </p>
+          </figure>
+        </section>
+        <form class="my-form">
+          <fieldset>
+            <div class="fieldset-wrapper">
+              <h2>Entre em contato</h2>
+              <div class="block">
+              <div class="input-wrapper">
+                <label for="name-info"></label>
+                <input type="text" placeholder="Seu nome" class="input-with-icon" required>
+              </div>
+              </div>
+              <div class="block">
+              <div class="input-wrapper2">
+                <label for="email"></label>
+                <input type="email" placeholder="E-mail" class="input-with-icon" required>
+              </div>
+              </div>
+
+               <div class="input-wrapper3">
+                <label for="message"></label>
+                <textarea placeholder="Digite sua mensagem aqui..." id="message"></textarea required>
+              </div>
+            </div>
+          </fieldset>
+           <div class="sendmsg">
+        <input 
+        class="button"
+        type="submit"
+        form="my-form"
+        value="Enviar mensagem"
+        />
+        </div>
+        </form>
+      </main>
+      <footer><p>© 2023 - Rocketseat Explorer</p></footer>
+    </div>
+  </body>
+</html>

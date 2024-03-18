@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Mulish", sans-serif;
+
+  --pink-100: #b52184;
+  --darkblue-100: #312d64;
+  --darkblue-gradient: linear-gradient(134deg, #343193 0%, #302c63 100%);
+}
+
+body,
+input,
+/*button*/
+select,
+textarea {
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/*body::before {
+  content: "";
+  /*min-height: 135.5rem;
+  height: 100%;
+  width: 100%;
+  height: 124.2rem;
+  
+  display: flex;
+  flex: 1;
+
+  position: absolute;
+  top: 67rem;
+  z-index: -1;
+  background: var(--darkblue-gradient);
+  border: 1px solid red;
+}*/
+
+header {
+  text-align: center;
+}
+
+header .space {
+  max-width: 36.4rem;
+  margin-bottom: 1.7rem;
+}
+
+h2 {
+  color: var(--pink-100);
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: var(--pink-100);
+}
+
+header p {
+  margin-bottom: 3.5rem;
+  color: var(--darkblue-100);
+}
+
+p {
+  color: var(--darkblue-100);
+}
+
+.item {
+  background: white;
+  height: 100%;
+}
+
+section p {
+  /*max-width: 26.5rem;*/
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 6rem;
+  padding: 5.9rem;
+  align-items: center;
+  margin: 9.8 auto;
+  background: var(--darkblue-gradient);
+}
+
+.item {
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  padding-top: 2.6rem;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  align-items: center;
+}
+
+.item h2 {
+  margin-bottom: 1.9rem;
+  margin-top: 3rem;
+}
+
+form h2 {
+  font-size: 3.2rem;
+}
+
+fieldset {
+  margin-top: 9rem;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+}
+
+form h2 {
+  margin-bottom: 4rem;
+}
+
+fieldset input {
+  min-width: 34.8rem;
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 1.6rem;
+  border: 1.5px solid var(--darkblue-100);
+}
+
+form textarea {
+  min-width: 34.8rem;
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 1.6rem;
+  border: 1.5px solid var(--darkblue-100);
+  max-height: 9.8rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+.input-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+
+  background-image: url(./images/person.svg);
+  background-size: 2rem 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.input-wrapper2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+.input-wrapper2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  text-align: center;
+  background-image: url(./images/at.svg);
+  background-size: 2rem 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.block {
+  display: block;
+}
+
+.button {
+  border-radius: 1.6rem;
+  color: white;
+  background: var(--darkblue-gradient);
+  padding: 1.6rem;
+  margin-top: 2.4rem;
+  margin-bottom: 10rem;
+}
+
+.sendmsg {
+  justify-content: center;
+  display: flex;
+  margin-right: 20.6rem;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+.input-with-icon {
+  padding-left: 3.5rem; /* Para dar espaço para o ícone dentro do input */
+  /* Ajuste o espaçamento do texto dentro do input, se necessário */
+  /* padding-left: 10px; */
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 3.2rem 1.6rem;
+  background: var(--darkblue-gradient);
+  /*margin-top: 6.5rem;*/
+}
+
+footer p {
+  color: white;
+}
+
+@media (min-width: 1440px) {
+  .space {
+    max-height: 70rem;
+    min-width: 49.3rem;
+  }
+
+  .explorer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header h2 {
+    top: 18rem;
+    position: absolute;
+    left: 9rem;
+    font-size: 5.8rem;
+  }
+
+  header p {
+    top: 25rem;
+    position: absolute;
+    left: 9rem;
+    font-size: 3.2rem;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 40rem;
+    left: 9rem;
+  }
+
+  section {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 12rem;
+  }
+
+  .item {
+    min-width: 27rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./images/stars.jpg);
+    background-size: 64.4rem 61.2rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 5rem;
+  }
+
+  fieldset input {
+    min-width: 60rem;
+  }
+
+  fieldset textarea {
+    min-width: 60rem;
+  }
+
+  .sendmsg {
+    margin-right: 45.7rem;
+  }
+
+  form h2 {
+    margin-right: 32.7rem;
+  }
+
+  /*body::before {
+    max-height: 52rem;
+  }*/
+}
